@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Restaurant Web</title>
+  <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li>
+          <div class="search">
+            <span class="material-symbols-outlined" aria-label="Search">search</span>
+            <input class="search-input" type="search" id="searchBar" placeholder="Search">
+          </div>
+        </li>
+        <li>
+          <select id="opt" onchange="window.location.href=this.value">
+            <option value="#">OPTIONS</option>
+            <option value="#menu1">Menu 1</option>
+            <option value="#menu2">Menu 2</option>
+            <option value="#menu3">Menu 3</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="view">
+    <h6 class="searchable">WIDE OPTIONS OF CHOICE</h6><br>
+    <h1 class="searchable">Delicious Recipes</h1><br>
+    <p class="searchable">
+      Inappropriate behavior is often laughed off as 'boys will be boys.' Women face higher conduct standards, especially in the workplace. That's why it is crucial that, as women...
+    </p><br>
+    <div class="btn1">
+      <button type="button" id="btn">CHECK OUR MENU</button>
+    </div><br>    
+  </section>
+
+  <section id="about">
+    <div class="a-img">
+      <img src="images/about.jpg" alt="Table with flower">
+    </div>
+    <div class="about-us">
+      <h2>About Us</h2>
+      <h5>Restaurant Style</h5>
+      <p>
+        Due to Caviar's unique slideshow, those first moments of your website's load are one to remember. Moreover, the outstanding and filterable food menu page will make guests rush to use the reservation form.
+      </p>
+    </div>
+  </section>
+
+  <section id="categories">
+    <div class="eating">
+      <div class="folk">
+       <img src="images/1.jpg">
+      </div>
+      <h1>ENJOY EATING</h1>
+      <h6>A small river named Duden flows by their place and supplies it with the necessary regelialia.</h6>
+    </div>
+    <div class="sea">
+      <div class="folk">
+        <img src="images/2.jpg">
+      </div>
+      <h1>FRESH SEA FOODS</h1>
+      <h6>A small river named Duden flows by their place and supplies it with the necessary regelialia.</h6>
+    </div>
+    <div class="cup">
+      <div class="folk">
+       <img src="images/3.jpg">
+      </div>
+      <h1>MEAT EATERS</h1>
+      <h6>A small river named Duden flows by their place and supplies it with the necessary regelialia.</h6>
+    </div>
+  </section>
+  <section id="foodstuff">
+    <div class="card">
+      <div class="circle">
+        <img src="images/pizza.jpg" alt="Pizza" class="pizza-img">
+      </div>
+      <h3>PIZZAS</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod et magna aliqua.</p>
+      <button class="btn">READ MORE</button>
+    </div>
+    <div class="card">
+      <div class="circle">
+        <img src="images/coffee.jpg" alt="Pizza" class="pizza-img">
+      </div>
+      <h3>COFFEE</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod et magna aliqua.</p>
+      <button class="btn">READ MORE</button>
+    </div>
+    <div class="card">
+      <div class="circle">
+        <img src="images/burger.jpg" alt="Pizza" class="pizza-img">
+      </div>
+      <h3>BURGER</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod et magna aliqua.</p>
+      <button class="btn">READ MORE</button>
+    </div>
+    <div class="card">
+      <div class="circle">
+        <img src="images/drink.jpg" alt="Pizza" class="pizza-img">
+      </div>
+      <h3>DRINKS</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod et magna aliqua.</p>
+      <button class="btn">READ MORE</button>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="about">
+  <form id="booking">
+    <div class="table1">
+        <u><h4>BOOK YOUR TABLE</h4></u>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <label for="color">Favorite Color:</label>
+        <input type="text" id="color" name="color" placeholder="Favorite color" required>
+        <label for="Phone Number">Phone Number:</label>
+        <input type="number" placeholder="Phone number" required>
+        <label for="date">Date:</label>
+        <input type="date" required>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter Email" required>
+        <input type="submit" value="SUBMIT" class="s-btn">
+    </div>
+</form>
+    </div>
+<div class="about">
+  <h2>Welcome to Taste.it</h2>
+  <p>Tasteit is a modern and responsive free simple restaurant website template for all types of cuisines. With that in mind, this nifty site canvas works for an array of different intentions, even if you are offering catering services and food delivery. Create a mouthwatering website with Tasteit and raise your potential to level eleven. Avoid the idea of doing all the heavy lifting from the ground up when you can benefit from Tasteit greatly.</p>
+  <img src="images/bout.jpg" alt="Chef Image">
+
+</div>
+  </section>
+
+
+  <footer id="footer">
+    <div class="facebook">
+    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+    <div class="twitter">
+      <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="instagram">
+      <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="linkedin">
+      <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <a href="tel:+254113485965" class="phone-link">Call-US: +254113485965</a>
+    
+  </footer>
+</body>
+</html>
